@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shorcut icon" href="index.png" type="image/x-png"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="go=google">
+    <title>CADASTRO PARA ACESSO</title>
+</head>
+<body> 
+    <form action=""method="post">
+    <h2><b><font color="gray">Insira seus dados abaixo:</font></b></h2>
+    <p><label for="Cnome">Nome do usuário:</label>
+    <input type="text" name="tnome" id="Cnome" maxlength="40"name="user"size=40
+            placeholder="Nome Completo"></p>
+    <p><label>Sexo</label>
+            <input type="radio" name="tsexo" id="Cmas"/> <label for="Cmas">Masculino</label>
+            <input type="radio" name="tsexo" id="Cfem"/> <label for="Cfem">Feminino</label></p>
+    <p><label for="Cmail">Insira um e-mail:</label>
+    <input type="email" nome="Tmail" id="Cmail" size=20 maxlength="40"
+            placeholder="E-mail valido"></p>
+    <p><label for="Csenha">Digite uma Senha:</label>
+    <input type="password" name="Tsenha" id="Csenha"size=4 maxlength="8"
+            placeholder="8 Dígitos"></p>
+    <p><label for="Cuf">Selecione o Estado:</label>
+    <select name="UF" id=Cuf>
+            <option value="SP">São Paulo</option>       
+            <option value="RJ">Rio de janeiro</option><br/>
+            <option value="MG">Minas Gerais</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="AC">Acre</option>
+            <option value="SE">Sergipe</option>
+            <option value="PE">Pernambuco</option>
+            <option value="MA">Maranhão</option>
+            <option value="AM">Amazonas</option>
+            <option value="PA">Pará</option>
+            <option value="AP">Amapá</option>
+            <option value="PI">Piauí</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="TO">Tocantins</option>
+            <option value="GO">Goiás</option>
+            <option value="CE">Ceará</option>
+            <option value="BA">Bahia</option>
+            <option value="AL">Alagoas</option>
+            <option value="PB">Paraíba</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="PR">Paraná</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="DF">Distrito Federal</option></p>
+    </select><br/>
+    <p><label for="Crua">Logradouro</label>
+    <input type=text name="Trua" id="Crua" size="22" maxlength="80" placeholder="Digite sua Rua"></p> 
+    <p><label for="Cnum">Número:</label>
+    <input type="number" name="Tnum" id="Cnum" min="0" max="999999"></p>
+    <p><label for="Cnas">Data de Nascimento:</label>  
+    <input type="date" name="Tnas" id="Cnas"></p>
+    <p><label for="Crg">RG</label>
+    <input type="value" name="Trg" id="Crg"
+            placeholder="Digite seu RG"></p>
+    <p><label for="Ctr">Setor de Trabalho</label>
+    <select name"S" id="Ctr">
+            <option value="AL">Almoxarifado</option>
+            <option value="QL">Qualidade</option>
+            <option value="ADM">Administrativo</option>
+            <option value="FR">Ferramentaria</option>
+            <option value="LG">Logística \</option>
+            <option value="RH">Recursos Humanos</option>
+            <option value="CB">Contabilidade</option></p>
+    </select>
+    </form>
+    <button>Salvar</button>
+</body>
+</html>
