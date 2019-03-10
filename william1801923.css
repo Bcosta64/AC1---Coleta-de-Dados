@@ -1,0 +1,17 @@
+body{
+    background-color: #20B2AA;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+p.center{
+    text-align:center;
+}
+
+p.direita{
+    text-align: right;
+}
+h1,h2,h3,h4,h5,h6{
+    color: gold
+}
+
